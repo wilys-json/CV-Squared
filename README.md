@@ -1,6 +1,6 @@
 ## CV-Squared: Core Vocabulary with Computer Vision
 
-
+![CV-Squared Example - Clothing Store](sample.gif)
 
 ### Introduction
 

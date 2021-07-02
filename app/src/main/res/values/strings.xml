@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SceneRecogCam</string>
+    <string name="preview_area">PreviewArea</string>
+    <string name="capture">Capture</string>
+</resources>

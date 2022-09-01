@@ -133,12 +133,11 @@ using a massive dataset, e.g. Place365
 *(2) Improving Model Accuracy & ML Pipeline*: Building a pipeline to continuously
 train and test the model, and continuously optimize model training
 
-*(3) Knolwedge Graph & Corpus Building*: Building or refining a knowledge graph and/or a corpus that is
-able to reason activities, objects or common concepts associated with scenes and physical contexts
+*(3) Knowledge Graph & Corpus Building*: Building or refining a knowledge graph and/or a corpus that is
+able to reason/discover activities, objects or common concepts associated with scenes and physical contexts
 
 *(4) NLP techniques*: Word stemming is relatively a naive implementation of
-semantic relations of word; more sophisticated NLP techniques such as POS tagging
-and word vector embedding learning shall be incorporated
+morphosyntatic / lexicogrammatical features/relations of words; more sophisticated NLP techniques such as POS tagging, word vector embedding learning, multimodal learning (e.g. image captioning) can be incorporated
 
 *(5) Speech Generation*: Resulting texts can be read aloud using TTS service
 such as AWS Polly or a personalized / customized synthesized speech to give a distinct voice to the user

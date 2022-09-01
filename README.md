@@ -15,7 +15,7 @@ which being Computer Vision.
 **Core Vocabulary**
 
 Core Vocabulary is an evidence-based intervention approach in the field of
-Speech Language Therapy (or Speech Language Pathology), particulary in
+Speech Language Therapy (or Speech Language Pathology), particularly in
 Augmentative and Alternative Communication (AAC), which enhances overall
 intelligibility (augmentative) or compensate limited or absent speech ability
 (alternative) of an individual with speech and language disorder resulting
@@ -31,13 +31,13 @@ To use core vocabulary for such purpose, we need an AAC device or system. An AAC
 device or system that draws on (advanced) technological resources is known
 as high-tech AAC. These systems are run on standalone devices or an application
 on edge devices such as a smartphone or tablet (e.g. [Proloque2Go](https://apps.apple.com/us/app/proloquo2go/id308368164)).
-One limitation in these systems however are operations such as flipping for
-categories and clicking item and speech generation buttons could be obstacles
+One limitation in these systems, however, is that operations such as flipping for
+categories and clicking item, and speech generation buttons could be obstacles
 for individuals with a comorbid (fine-)motor impairment or developmental delay.
 Another problem with existing AAC system is that they are insensitive to the
 physical context and too generic (or takes too many steps to customize). These
 make the implementation of Core Vocabulary on high-tech AAC system way less
-"user-friendly".
+"user-friendly", and hence the use of AAC systems is less likely to be generalized in daily contexts.
 
 
 **Computer Vision & Indoor Scene Recognition**
@@ -52,7 +52,7 @@ system to look for context relevant content for an AAC user.
 
 ### Project development
 
-The project could thought as a three-phase process:
+The project could be thought as a three-phase process:
 
 
 *Model Training*
@@ -133,15 +133,15 @@ using a massive dataset, e.g. Place365
 *(2) Improving Model Accuracy & ML Pipeline*: Building a pipeline to continuously
 train and test the model, and continuously optimize model training
 
-*(3) Knolwedge Graph Building*: Building or refining a knowledge graph that is
-able to reason activities, objects or common concepts associated with scenes
+*(3) Knolwedge Graph & Corpus Building*: Building or refining a knowledge graph and/or a corpus that is
+able to reason activities, objects or common concepts associated with scenes and physical contexts
 
 *(4) NLP techniques*: Word stemming is relatively a naive implementation of
 semantic relations of word; more sophisticated NLP techniques such as POS tagging
-and Word Vector learning shall be incorporated
+and word vector embedding learning shall be incorporated
 
 *(5) Speech Generation*: Resulting texts can be read aloud using TTS service
-such as AWS Polly or a personalized / customized synthesized speech
+such as AWS Polly or a personalized / customized synthesized speech to give a distinct voice to the user
 
 *(6) Recommendation system*: Train a model or an agent that learns the in-the-scene
 preference and/or daily routine of the individual to formulate a personalized
